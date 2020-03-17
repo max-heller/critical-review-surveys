@@ -1,0 +1,14 @@
+[package]
+name = "critical-review-surveys"
+version = "0.1.0"
+authors = ["mxheller <heller.max1@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+"dotenv" = "^0.15.0"
+"futures" = "^0.3.4"
+"reqwest" = { version = "^0.10.4", features = ["json"] }
+"serde" = { version = "^1.0.104", features = ["derive"] }
+"tokio" = { version = "^0.2.13", features = ["full"] }
